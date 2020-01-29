@@ -1,11 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
-By Nick Di Loreto
-for use for csc 209 a3 2018 @ utm
-this is used to generate from 2..n; n being argv1
-and argv2 beaing teh file to wtire to
-*/
+
 int main(int argc, char const *argv[]) {
 
   if (argc!=3){
