@@ -15,7 +15,6 @@ int main(int argc, char *argv[]) {
         perror("signal");
         exit(1);
     }
-    // Your solution below ...
     // check input = positive int    
     if ((argc != 2)) {
         fprintf(stderr, "Usage:\n\tpfact n\n");
